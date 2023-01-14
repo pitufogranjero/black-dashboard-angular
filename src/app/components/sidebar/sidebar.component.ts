@@ -36,6 +36,7 @@ export const ROUTES: RouteInfo[] = [
     icon: "icon-atom",
     class: ""
   },
+  /*
   {
     path: "/maps",
     title: "Maps",
@@ -49,7 +50,7 @@ export const ROUTES: RouteInfo[] = [
     icon: "icon-bell-55",
     class: ""
   },
-
+  */
   {
     path: "/user",
     title: "User Profile",
@@ -69,13 +70,6 @@ export const ROUTES: RouteInfo[] = [
     title: "Typography",
     rtlTitle: "طباعة",
     icon: "icon-align-center",
-    class: ""
-  },
-  {
-    path: "/rtl",
-    title: "RTL Support",
-    rtlTitle: "ار تي ال",
-    icon: "icon-world",
     class: ""
   }
 ];
