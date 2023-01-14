@@ -13,6 +13,8 @@ import { NgbModule } from "@ng-bootstrap/ng-bootstrap";
 
 import { AppRoutingModule } from "./app-routing.module";
 import { ComponentsModule } from "./components/components.module";
+import { ConnectionsComponent } from './pages/connections/connections.component';
+import { HistoryComponent } from './pages/history/history.component';
 
 @NgModule({
   imports: [
@@ -25,7 +27,7 @@ import { ComponentsModule } from "./components/components.module";
     AppRoutingModule,
     ToastrModule.forRoot()
   ],
-  declarations: [AppComponent, AdminLayoutComponent, AuthLayoutComponent],
+  declarations: [AppComponent, AdminLayoutComponent, AuthLayoutComponent, ConnectionsComponent, HistoryComponent],
   providers: [],
   bootstrap: [AppComponent]
 })

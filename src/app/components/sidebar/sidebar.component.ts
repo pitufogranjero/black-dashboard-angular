@@ -16,6 +16,20 @@ export const ROUTES: RouteInfo[] = [
     class: ""
   },
   {
+    path: "/history",
+    title: "History",
+    rtlTitle: " ",
+    icon: "icon-bullet-list-67",
+    class: ""
+  },
+  {
+    path: "/connections",
+    title: "Connections",
+    rtlTitle: " ",
+    icon: "icon-link-72",
+    class: ""
+  },
+  {
     path: "/icons",
     title: "Icons",
     rtlTitle: "الرموز",
