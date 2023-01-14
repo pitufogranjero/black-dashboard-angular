@@ -15,6 +15,7 @@ import { AppRoutingModule } from "./app-routing.module";
 import { ComponentsModule } from "./components/components.module";
 import { ConnectionsComponent } from './pages/connections/connections.component';
 import { HistoryComponent } from './pages/history/history.component';
+import { SubscriptionComponent } from './pages/subscription/subscription.component';
 
 @NgModule({
   imports: [
@@ -27,7 +28,7 @@ import { HistoryComponent } from './pages/history/history.component';
     AppRoutingModule,
     ToastrModule.forRoot()
   ],
-  declarations: [AppComponent, AdminLayoutComponent, AuthLayoutComponent, ConnectionsComponent, HistoryComponent],
+  declarations: [AppComponent, AdminLayoutComponent, AuthLayoutComponent, ConnectionsComponent, HistoryComponent, SubscriptionComponent],
   providers: [],
   bootstrap: [AppComponent]
 })

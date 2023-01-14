@@ -30,13 +30,20 @@ export const ROUTES: RouteInfo[] = [
     class: ""
   },
   {
+    path: "/subscription",
+    title: "Subscription",
+    rtlTitle: " ",
+    icon: "icon-coins",
+    class: ""
+  },
+  /*
+  {
     path: "/icons",
     title: "Icons",
     rtlTitle: "الرموز",
     icon: "icon-atom",
     class: ""
   },
-  /*
   {
     path: "/maps",
     title: "Maps",
@@ -57,8 +64,8 @@ export const ROUTES: RouteInfo[] = [
     rtlTitle: "ملف تعريفي للمستخدم",
     icon: "icon-single-02",
     class: ""
-  },
-  {
+  }
+  /*,
     path: "/tables",
     title: "Table List",
     rtlTitle: "قائمة الجدول",
@@ -72,6 +79,7 @@ export const ROUTES: RouteInfo[] = [
     icon: "icon-align-center",
     class: ""
   }
+  */
 ];
 
 @Component({
