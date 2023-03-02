@@ -88,10 +88,10 @@ a[data-toggle="collapse"][aria-expanded="true"] .caret,
   .blockquote, .blockquote p, .card p{
     color: rgba($white,0.8);
   }
-  // .bd-example {
-  //   background: linear-gradient(#1e1e2f,#1e1e24);
-  //
-  // }
+  .bd-example {
+    background: linear-gradient(#1e1e2f,#1e1e24);
+
+  }
 
   .navbar {
     border-top: none;
